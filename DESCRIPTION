@@ -1,0 +1,20 @@
+Package: AlphaMissense.v2023.hg38
+Type: Package
+Title: AlphaMissense v2023 Pathogenicity Scores AnnotationHub Resource Metadata for hg38
+Version: 3.18.0
+Encoding: UTF-8
+Authors@R: c(person("Robert", "Castelo", role=c("aut", "cre"),
+        email="robert.castelo@upf.edu"))
+Description: Store Google DeepMind AlphaMissense v2023 hg38 pathogenicity
+        scores AnnotationHub Resource Metadata. Provide provenance and
+        citation information for Google DeepMind AlphaMissense v2023 hg38
+        pathogenicity score AnnotationHub resources. Illustrate in a
+        vignette how to access those resources.
+VignetteBuilder: knitr
+License: Artistic-2.0
+Depends: GenomicScores, AnnotationHub
+Suggests: knitr, rmarkdown, BiocStyle
+biocViews: AnnotationData, PackageType, AnnotationHub, Organism, Homo_sapiens
+organism: Homo sapiens
+provider: Google DeepMind
+provider_version: v2023
